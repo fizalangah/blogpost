@@ -1,5 +1,5 @@
 "use client"
-import Image from "next/image";
+
 import { useState } from "react";
 import Link from "next/link";
 import { RxHamburgerMenu } from "react-icons/rx";
@@ -19,13 +19,6 @@ function handelIsopen() {
       <div className="countainer mx-auto flex justify-between items-center">
         <div className="text-yellow-50 font-extrabold text-xl ml-[50px]">
           <Link href="/">HF <span className="text-sm font-thin">Healthy food</span>
-          {/* <Image
-        //   src="/logo.jpg" // Path to your logo
-        //   alt="" // Alternative text for accessibility */}
-        {/* //   width={100} // Set width according to your design
-        //   height={30} // Set height according to your design
-        //   className="rounded text-2xl" // Add any Tailwind classes for styling
-        // / */}
           </Link>
         </div>
      

@@ -1,16 +1,16 @@
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
-
 import Link from "next/link"
 import Navbar from "../components/navbar";
+
 export default function Contactpage() {
   return (
     <div>
   <Navbar/>
 <div className=" flex justify-center items-center text-center mt-[100px] ">
         <h1 className="text-4xl text-yellow-50 font-bold">Let's Get In Touch</h1>
-      </div>
+        </div>
 
       <div className="flex justify-center items-center mt-[20px]">
         {/* Left side text */}
