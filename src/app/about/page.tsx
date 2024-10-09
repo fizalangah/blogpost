@@ -1,5 +1,4 @@
 
-import Image from "next/image"
 import Navbar from "../components/navbar"
 export default function Aboutpage() {
   return (
@@ -8,19 +7,6 @@ export default function Aboutpage() {
         <Navbar/>
     <div className=" flex  justify-center items-center text-center ">
     <h1 className=" lg:text-4xl text-2xl  font-bold text-black">About Me!</h1>
-       
-          {/* ///image */}
-      {/* <div className="h-[150px] w-[150px]  rounded-full overflow-hidden">
-        <Image
-          src="/img4.jpeg"
-          alt="profile pic"
-          height={200}
-          width={200}
-          className="object-cover"
-        />
-      </div> */}
-
-    
     </div>
 
     <div className="lg:w-[800px] md:w-[600px] w-[300px] lg:h-[300px] md:h-[300px] border-blue-50 border-2 rounded-xl mt-[10px] p-4 bg-green-700">
