@@ -34,11 +34,11 @@ const Home = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto px-4 text-center">
           {posts.map((post, index) => (
             <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <Image src={post.image} alt={post.title} className="w-full h-40 object-cover" />
+              <Image src={post.image} alt={post.title} width={200} height={200}  className="w-full h-40 object-cover" />
               <div className="p-4">
                 <h2 className="font-bold text-xl text-gray-800">{post.title}</h2>
                 <p className="text-gray-700 mt-2">{post.shortDescription}</p>
-                <Link href={`/blog/${post.slug}`}
+                <Link href={`/blog/${post.slug1}`}
                    className="mt-4 inline-block bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600 transition ">
                     {post.button}
                   

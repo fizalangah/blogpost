@@ -1,8 +1,8 @@
 export const posts = [
   {
-    slug: "quick-and-healthy-breakfast-ideas",
+    slug1: "quick-and-healthy-breakfast-ideas",
     title: "Quick and Healthy Breakfast Ideas",
-    image: "/img1.jpg", // Replace with actual image path
+    image: "/img1.jpg",// Replace with actual image path
     button: "Explore More",
     shortDescription: "Discover quick and healthy breakfast options that can be made in under 15 minutes.",
     fullContent: `
@@ -18,7 +18,7 @@ export const posts = [
     `,
   },
   {
-    slug: "the-benefits-of-meal-prepping",
+    slug1: "the-benefits-of-meal-prepping",
     title: "The Benefits of Meal Prepping",
     image: "/img8.jpg",
     button: "Explore More",
@@ -36,7 +36,7 @@ export const posts = [
     `,
   },
   {
-    slug: "healthy-snacks-for-on-the-go",
+    slug1: "healthy-snacks-for-on-the-go",
     title: "Healthy Snacks for On-the-Go",
     image: "/img3.jpg",
     button: "Explore More",
@@ -54,7 +54,7 @@ export const posts = [
     `,
   },
   {
-    slug: "5-delicious-salads-for-every-season",
+    slug1: "5-delicious-salads-for-every-season",
     title: "5 Delicious Salads for Every Season",
     image: "/img5.jpg",
     button: "Explore More",
@@ -72,7 +72,7 @@ export const posts = [
     `,
   },
   {
-    slug: "how-to-incorporate-superfoods-into-your-diet",
+    slug1: "how-to-incorporate-superfoods-into-your-diet",
     title: "How to Incorporate Superfoods into Your Diet",
     image: "/img7.jpg", // Replace with actual image path
     button: "Explore More",
@@ -90,7 +90,7 @@ export const posts = [
     `,
   },
   {
-    slug: "10-quick-and-easy-dinner-recipes",
+    slug1: "10-quick-and-easy-dinner-recipes",
     title: "10 Quick and Easy Dinner Recipes",
     image: "/img6.jpg", // Replace with actual image path
     button: "Explore More",
@@ -107,4 +107,15 @@ export const posts = [
      
     `,
   },
+];
+
+ export type comentType = {
+  name: "string";
+  content: "string"
+}
+
+export const comments = [
+  { name: 'John Doe', content: 'Great post! Very informative.' },
+  { name: 'Jane Smith', content: 'Thanks for the tips, really helped me out.' },
+  { name: 'Alex Johnson', content: 'Looking forward to reading more posts like this!' }
 ];
