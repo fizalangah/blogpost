@@ -47,8 +47,8 @@ const Post = async ({ params }: PostProps) => {
 
 
        {/* Static Comments Section */}
-       <div className="mt-10 text-black flex justify-start mr-[400px]">
-        <h2 className="text-2xl font-semibold mb-4 justify-start items-start">Comments</h2>
+       <div className="mt-10 text-black flex justify-center item-center">
+        <h2 className="text-2xl font-semibold mb-4 justify-center items-center">Comments</h2>
         <ul>
           {comments.map((comment, index) => (
             <li key={index} className="border-t pt-4 mt-4">
